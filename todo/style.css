@@ -1,0 +1,94 @@
+body{
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(160, 138, 97, 0.73)), url('./1.jpg');
+}
+.notka{
+    position: relative;
+    
+    margin: 10px;
+    min-width: 200px;
+    max-width: 200px ;
+    min-height: 200px;
+    float: left;
+    
+}
+.bar{
+    position: relative;
+    width: 100%;
+    height: 20px;
+    top:0;
+    padding-left: 5px ;
+    background-color: lightgray;
+}
+.content{
+    
+    position: relative;
+    padding: 5px;
+    width: 100%;
+    min-height: 160px;
+    max-width: 200px ;
+    
+}
+.delbut{
+    position: absolute;
+    border: none;
+    background-image: url(xbut.png);
+    
+    margin: 3px;
+    right: 0;
+    width: 15px;
+    height: 15px;
+    outline:none;
+    
+}
+.delbut:active{
+    border: none;
+    outline:none;
+}
+.footer{
+    position: relative;
+    width: 100%;
+    height: 20px;
+    top:0;
+    padding-left: 5px ;
+    background-color: lightgray;
+    font-size: 12px;
+}
+.savebut{
+    position: absolute;
+    border: none;
+    background-image: url(sbut.png);
+    
+    margin: 3px;
+    right: 0;
+    width: 15px;
+    height: 15px;
+    outline:none;
+}
+.savebut:active{
+    border: none;
+    outline:none;
+}
+.unpinbut{
+    position: absolute;
+    border: none;
+    background-image: url(pbut.png);
+    margin: 3px;
+    right: 20px;
+    width: 15px;
+    height: 15px;
+    
+    outline:none;
+    
+}
+.pinbut{
+    position: absolute;
+    border: none;
+    background-image: url(pbut.png);
+    margin: 3px;
+    right: 20px;
+    width: 15px;
+    height: 15px;
+    outline:none;
+    transform: rotate(90deg);
+    
+}
