@@ -1,94 +1,72 @@
-body{
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(160, 138, 97, 0.73)), url('./1.jpg');
+.drawer-frame-root {
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
 }
-.notka{
-    position: relative;
-    
-    margin: 10px;
-    min-width: 200px;
-    max-width: 200px ;
-    min-height: 200px;
-    float: left;
-    
+
+
+.contentHeader {
+  position: relative;
+  background-position: 0% 60%;
+  height: 150px;
+  background-repeat: no-repeat;
+  height: 80px;
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(160, 138, 97, 0.73)), url('./12wWl4H.jpg');
 }
-.bar{
-    position: relative;
-    width: 100%;
-    height: 20px;
-    top:0;
-    padding-left: 5px ;
-    background-color: lightgray;
+
+.contentHeader span {
+ position: absolute;
+ color: #FFFFFF;
+ bottom: 0;
+ left: 0;
 }
-.content{
-    
-    position: relative;
-    padding: 5px;
-    width: 100%;
-    min-height: 160px;
-    max-width: 200px ;
-    
+
+.mdc-top-app-bar--fixed-adjust {
+  padding-top: 0;
 }
-.delbut{
-    position: absolute;
-    border: none;
-    background-image: url(xbut.png);
-    
-    margin: 3px;
-    right: 0;
-    width: 15px;
-    height: 15px;
-    outline:none;
-    
+
+.drawer-main-content {
+  padding: 15px;
 }
-.delbut:active{
-    border: none;
-    outline:none;
+
+.drawer-frame-app-content {
+  width: 100%;
 }
-.footer{
-    position: relative;
-    width: 100%;
-    height: 20px;
-    top:0;
-    padding-left: 5px ;
-    background-color: lightgray;
-    font-size: 12px;
+
+#todo-list {
+  padding: 0;
 }
-.savebut{
-    position: absolute;
-    border: none;
-    background-image: url(sbut.png);
-    
-    margin: 3px;
-    right: 0;
-    width: 15px;
-    height: 15px;
-    outline:none;
+
+.header {
+  text-align: center;
 }
-.savebut:active{
-    border: none;
-    outline:none;
+
+.avatar-image {
+  width: 55px;
 }
-.unpinbut{
-    position: absolute;
-    border: none;
-    background-image: url(pbut.png);
-    margin: 3px;
-    right: 20px;
-    width: 15px;
-    height: 15px;
-    
-    outline:none;
-    
+
+.test {
+  text-decoration: line-through;
 }
-.pinbut{
-    position: absolute;
-    border: none;
-    background-image: url(pbut.png);
-    margin: 3px;
-    right: 20px;
-    width: 15px;
-    height: 15px;
-    outline:none;
-    transform: rotate(90deg);
-    
+
+#add-collection-button {
+  width: 100%;
+}
+
+#add-todo-form {
+  width: 100%;
+}
+
+.add-todo-input-wrapper {
+  width: 100%;
+}
+
+.done {
+  text-decoration: line-through;
+  color: #AAAAAA;
+}
+
+.inProgress {
+  color: rgba(98,0,238,.87);
+  text-shadow: 0 0 10px rgba(98,0,238,.87);
 }
